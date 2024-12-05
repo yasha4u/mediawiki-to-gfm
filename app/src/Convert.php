@@ -368,7 +368,7 @@ class Convert
         $this->setOption('indexes', $options);
         $this->setOption('addmeta', $options);
         $this->setOption('skiperrors', $options);
-        $this->output = rtrim($this->output, '/') . '/';
+        // $this->output = rtrim($this->output, '/') . '/';
     }
 
     /**
